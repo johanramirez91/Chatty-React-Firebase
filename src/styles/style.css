@@ -1,0 +1,32 @@
+.chat-area {
+  padding: 20px;
+  height: 80%;
+  overflow: hidden;
+}
+
+.chat-area .chat-bubble {
+  background-color: #525252;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+.chat-bubble .chat-time {
+  font-size: 15px;
+  color: #757575;
+  text-align: right;
+}
+
+.chat-area .chat-bubble.current-user {
+  margin-left: auto;
+  background-color: #a1a1a1;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.form-control:focus {
+  box-shadow: #525252;
+}

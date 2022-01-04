@@ -78,7 +78,7 @@ export default class Chat extends Component {
         return (
             <div div className="chat">
                 <Header />
-                <div className="chat-area m-3" ref={this.myRef}>
+                <div className="chat-area" ref={this.myRef}>
                     {this.state.loadingChats ? (
                         <div className="spinner-border text-success" role="status">
                             <span className="sr-only">Loading...</span>
